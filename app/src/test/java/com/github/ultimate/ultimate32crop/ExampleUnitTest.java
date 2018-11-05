@@ -19,4 +19,9 @@ public class ExampleUnitTest {
     public void mul2_isCorrect() {
         assertEquals(12123*12399, Main.imForTesting(12123, 12399));
     }
+
+    @Test
+    public void mul3_isCorrect() {
+        assertEquals(12123*12394, Main.imForTesting(12123, 12394));
+    }
 }

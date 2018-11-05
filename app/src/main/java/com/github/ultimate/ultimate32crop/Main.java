@@ -133,4 +133,8 @@ public class Main extends AppCompatActivity{
             Toast.makeText(Main.this, "NO EXPECT", Toast.LENGTH_SHORT).show();
         }
     }
+
+    protected static int imForTesting(int a, int b) {
+        return a * b;
+    }
 }
